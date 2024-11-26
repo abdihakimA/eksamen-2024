@@ -1,0 +1,149 @@
+/* Generelle stiler */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+/* Header */
+header {
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+header nav ul li a:hover {
+    background-color: #005f99;
+}
+
+/* Main innhold */
+main {
+    padding: 20px;
+}
+
+/* Seksjon */
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+/* Produktkort */
+article {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+article img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+article h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+article p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #007acc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Knappstil */
+.button {
+    display: inline-block;
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #005f99;
+}
+
+/* Skjema (for kasse-siden) */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Handlekurv-seksjon */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
